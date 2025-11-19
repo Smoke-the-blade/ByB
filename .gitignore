@@ -1,0 +1,73 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Build output
+# =========================
+dist/
+build/
+out/
+*.asar
+
+# =========================
+# Electron cache
+# =========================
+electron-builder.yml
+electron-builder.yaml
+.idea/
+.DS_Store
+
+# =========================
+# Models or compiled data
+# =========================
+*.pid
+*.seed
+*.sqlite
+*.db
+*.zip
+
+# =========================
+# VS Code configs
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# Backend
+# =========================
+backend/node_modules/
+backend/*.log
+backend/package-lock.json
+backend/package.json
+# =========================
+# Frontend
+# =========================
+frontend/node_modules/
+frontend/*.log
+frontend/package-lock.json
+frontend/package.json
