@@ -1,4 +1,4 @@
-import * as ventasService from "../services/ventasService.js";
+import * as ventasService from "../services/ventasServices.js";
 
 // Crear venta vacía
 export const crearVenta = async (req, res) => {

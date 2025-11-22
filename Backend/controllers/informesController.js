@@ -1,4 +1,4 @@
-import * as informesService from "../services/informesService.js";
+import * as informesService from "../services/informesServices.js";
 
 // Ventas por rango de fechas
 export const ventasPorFecha = async (req, res) => {

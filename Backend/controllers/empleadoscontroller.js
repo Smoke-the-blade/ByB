@@ -1,4 +1,4 @@
-import * as empleadosService from "../services/empleadosService.js";
+import * as empleadosService from "../services/empleadosServices.js";
 
 export const getEmpleados = async (req, res) => {
     try {
