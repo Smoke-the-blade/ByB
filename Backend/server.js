@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
+import { errorHandler } from "./middlewares/errorHandler.js";
+
 import productosRoutes from "./routes/productos.js";
 import empleadosRoutes from "./routes/empleados.js";
 import ventasRoutes from "./routes/ventas.js";
@@ -35,6 +37,8 @@ app.get("/", (req, res) => {
         version: "1.0.0"
     });
 });
+
+app.use(errorHandler);
 
 // ==============================
 // Servidor ON
